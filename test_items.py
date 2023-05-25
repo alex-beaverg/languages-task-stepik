@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-def test_webpage_with_different_languages(browser, language):
+def test_check_add_to_basket_button(browser, language):
     link = f"http://selenium1py.pythonanywhere.com/{language}/catalogue/coders-at-work_207/"
     browser.maximize_window()
     browser.get(link)
